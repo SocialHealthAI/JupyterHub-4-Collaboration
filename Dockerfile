@@ -33,6 +33,7 @@ RUN conda install -c conda-forge jupyter_nbextensions_configurator \
     jupyterlab \
 #   ipympl - Jupyterlab matplotlib widget
     ipympl \
+    jupyterlab-spellchecker \
     numpy \
     matplotlib \
     pandas \
@@ -42,6 +43,7 @@ RUN conda install -c conda-forge jupyter_nbextensions_configurator \
     scipy \
     sympy \
     seaborn \
+    openpyxl \
     && conda clean -ay
 
 # Install JupyterLab extensions
@@ -73,5 +75,7 @@ RUN echo "PATH="${PATH}":/opt/conda/bin" >> /etc/environment
 
 # Setup application
 EXPOSE 8000
-CMD ["jupyterhub", "--ip='*'", "--port=8000", "--no-browser", "--allow-root"]
+# CMD ["jupyterhub", "--ip='*'", "--port=8000", "--no-browser", "--allow-root"]
+CMD ["jupyterhub", "--ip='*'", "--port=8000"]
+
 

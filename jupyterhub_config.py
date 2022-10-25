@@ -1,7 +1,7 @@
 # jupyterhub_config.py
 c = get_config()
 
-# Change from JupyterHub to JupyterLab
+# Change from Jupyter Notebook to JupyterLab
 c.Spawner.default_url = '/lab'
 c.Spawner.debug = True
 
