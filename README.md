@@ -33,6 +33,6 @@ passwd username
 ~~~
 To start using collaboration tools see:
 __[Using GitHub for Collaboration with JupyterLab](https://jeffrey-p-gunderson.medium.com/f6ee51ff4e0c)__
-
+and 
 __[Effective Documentation and Presentations with JupyterLab](https://jeffrey-p-gunderson.medium.com/c7fb9bcf39bf)__
 
