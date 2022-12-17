@@ -32,7 +32,7 @@ and change the password with:
 passwd username
 ~~~
 To start using collaboration tools see:
-__[Using GitHub for Collaboration with JupyterLab](http://socialhealthai.org/ai-solutions/data-science-team-collaboration-with-jupyterhub-and-jupyterlab-447ae72c2186/)__
+__[Using GitHub for Collaboration with JupyterLab](http://socialhealthai.org/ai-solutions/using-github-for-collaboration-with-jupyterlab-f6ee51ff4e0c/)__
 and 
-__[Effective Documentation and Presentations with JupyterLab](https://jeffrey-p-gunderson.medium.com/c7fb9bcf39bf)__
+__[Effective Documentation and Presentations with JupyterLab](http://socialhealthai.org/ai-solutions/effective-documentation-and-presentations-with-jupyterlab-c7fb9bcf39bf/)__
 
