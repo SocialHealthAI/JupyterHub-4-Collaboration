@@ -1,5 +1,5 @@
 # Docker base image of JupyterHub for Collaboration
-Files used to build the image: 
+Files used to build the Docker image: 
 __[JupyterHub for Collaboration](https://hub.docker.com/repository/docker/jeffgunderson/jupyterhub4collaboration)__
 
 The image has the following packages and extensions:
@@ -12,7 +12,7 @@ The image has the following packages and extensions:
 - Support for adding new users
 
 To see how the Docker image was built:
-__[Building Docker Based JupyterHub for Collaboration](https://jeffrey-p-gunderson.medium.com/917ec296b44d)__
+__[Building Docker Based JupyterHub for Collaboration](http://socialhealthai.org/ai-solutions/building-docker-based-jupyterhub-for-collaboration-917ec296b44d/)__
 
 To deploy the image you will need to install Docker. Using a terminal or PowerShell you can pull the image from DockerHub and run the image in a container named j4c using:
 ~~~
@@ -32,7 +32,7 @@ and change the password with:
 passwd username
 ~~~
 To start using collaboration tools see:
-__[Using GitHub for Collaboration with JupyterLab](https://jeffrey-p-gunderson.medium.com/f6ee51ff4e0c)__
+__[Using GitHub for Collaboration with JupyterLab](http://socialhealthai.org/ai-solutions/data-science-team-collaboration-with-jupyterhub-and-jupyterlab-447ae72c2186/)__
 and 
 __[Effective Documentation and Presentations with JupyterLab](https://jeffrey-p-gunderson.medium.com/c7fb9bcf39bf)__
 
